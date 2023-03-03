@@ -4,7 +4,7 @@ const data = [
 	id:1,
 	lat: 47.06, 
     lng: 21.94,
-    cateory:"restaurant",
+    category:"restaurant",
 	name:"Restaurant  Olive ",
 	location:"Strada Menumorut 11, Oradea",
 	
@@ -13,7 +13,7 @@ const data = [
 	id:2,
 	lat: 47.03, 
     lng: 21.95,
-    cateory:"restaurant",
+    category:"restaurant",
 	name:"KFC",
 	location:"Str. Nufărului 30, Oradea",
 	
@@ -22,7 +22,7 @@ const data = [
 	id:3,
 	lat: 47.05, 
     lng: 21.93,
-    cateory:"Pizza",
+    category:"Pizza",
 	name:"toto restaurant",
 	location:"Strada Mihail Kogălniceanu 3, 410067, Oradea ",
 	
@@ -31,7 +31,7 @@ const data = [
 	id:4,
 	lat: 47.06, 
     lng: 21.90,
-    cateory:"Bar",
+    category:"Bar",
 	name:"Lumicor industrial",
 	location:"STR.Verii, Nr.3",
 	
@@ -40,7 +40,7 @@ const data = [
 	id:5,
 	lat: 47.07, 
     lng: 21.90,
-    cateory:"Bar",
+    category:"Bar",
 	name:"Rivo",
 	location:"Calea Borsului ,Nr7 ",
 	
@@ -49,7 +49,7 @@ const data = [
 	id:6,
 	lat: 47.05538565238725, 
     lng: 21.91499633493669,
-    cateory:"Bar",
+    category:"Bar",
 	name:"The Hub 2",
 	location:"Calea Aradului, Nr 9 ",
 	
@@ -58,7 +58,7 @@ const data = [
 	id:7,
 	lat: 47.05971640338013, 
     lng:  21.913210955809113,
-    cateory:"restaurant",
+    category:"restaurant",
 	name:"Restaurant Spartan",
 	location:"Strada Stefan Octavian Iosif 3 ,Lotus Retail Parc",
 	

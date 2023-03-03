@@ -3,24 +3,24 @@ import React, { useState, useContext, useReducer, useEffect } from 'react'
 import data from './data/data'
 const AppContext = React.createContext()
 
-const allCategories = [ ...new Set(data.map((item) => item.cateory))];
+const allCategories = [ ...new Set(data.map((item) => item.category))];
 
 const AppProvider = ({ children }) => {
   const [show,setShow] = useState(false) 
-    const [modal,setModal] = useState(false)
+    
     const [category,setCategory] = useState(data);
     const [categories,setCat] = useState(allCategories)
     
     const [search,setSearch] = useState("")
-    const [openDrop, setOpenDrop] = useState(false);
+    
   
   const handleShow = ()=>{
     setShow(!show);
   }
 
-    const filterItems = (cateory) => {
+    const filterItems = (categoryy) => {
       setCategory(data);
-    const newItems = data.filter((item) => item.cateory === cateory);
+    const newItems = data.filter((item) => item.category === categoryy);
     setCategory(newItems);
   };
   return (

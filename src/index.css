@@ -113,13 +113,7 @@ p {
   height: 600px;
   position: relative;
 }
-.row{
-  display: flex;
-  flex-direction: row;
-  height: 100%;
-  
-  
-}
+
 .sidebar{
   position: fixed;
   position: relative;
@@ -247,33 +241,31 @@ p {
 
 .content-middle {
   flex: 80%;
-  width: 100%;
+  width: 80%;
   display: flex;
-  
+    justify-content: center;
+    align-items: center;
   overflow-y: hidden;
 }
 .middle-info{
   background-color: white;
   height: 100%;
-  width: 90%;
-  display: flex;
+  width: 100%;
   
-  overflow-y: scroll;
-  
+  flex-wrap: wrap;
 }
 .cards {
-  padding: 25px;
+  
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   overflow-y: hidden;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .box {
   height: 170px;
-  width: 330px;
+  width: 370px;
   padding: 25px;
   border: 1px solid;
   border-radius: 10px;
@@ -528,7 +520,9 @@ transform: rotate(90deg);
       .close-modal-btn:hover {
              color: red;
             }
-    
+        .middle-info{
+          margin-top: 15px;
+        }
 }
 
 
